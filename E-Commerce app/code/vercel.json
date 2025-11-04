@@ -1,0 +1,33 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm ci",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "description": "Supabase project URL"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "description": "Supabase anon key"
+    },
+    {
+      "key": "SUPABASE_SERVICE_ROLE_KEY",
+      "description": "Supabase service role key"
+    },
+    {
+      "key": "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY",
+      "description": "Stripe publishable key"
+    },
+    {
+      "key": "STRIPE_SECRET_KEY",
+      "description": "Stripe secret key"
+    }
+  ],
+  "functions": {
+    "app/api/**": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
