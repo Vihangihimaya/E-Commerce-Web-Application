@@ -1,8 +1,8 @@
-🛍 MERN E-Commerce Website
+### MERN E-Commerce Website
 
 This is a full-stack e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform allows users to browse products, manage a cart, place orders, and make secure payments using Stripe.
 
-🚀 Features
+### Features
 
 - User Authentication (Register/Login)
 - Product Listings & Details
@@ -11,7 +11,7 @@ This is a full-stack e-commerce application built using the MERN stack (MongoDB,
 - Admin Dashboard for product/user/order management
 - Order history and status updates
 
-🛠 Tech Stack
+ Tech Stack
 
 - Frontend: React.js, React Router, Redux
 - Backend: Node.js, Express.js
@@ -19,7 +19,7 @@ This is a full-stack e-commerce application built using the MERN stack (MongoDB,
 - Payment Integration: Stripe API
 - Authentication: JWT (JSON Web Token)
 
-📂 How to Run Locally
+ How to Run Locally
 
 1. Clone the repository  
 2. Install dependencies (npm install) in both client & server  
@@ -28,7 +28,7 @@ This is a full-stack e-commerce application built using the MERN stack (MongoDB,
    - Server: npm run server  
    - Client: npm start
 
-📦 Future Improvements
+### Future Improvements
 
 - Product reviews  
 - Search and filtering  
